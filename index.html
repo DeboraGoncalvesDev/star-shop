@@ -28,11 +28,28 @@
                 menu
                 </span></button>
 
-                
+             
+              
+
+             
+
+
            
           
         
     </header>
+    
+    <div class="container">
+        <nav id="menu-mobile">
+            <ul>
+                <li> <a href="#about-texto">Sobre</a></li>
+                <li> <a href="#produtos">Produtos</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                    shopping_cart_checkout
+                    </span></a></li>
+            </ul>
+    </div>
+    </nav>
 
     
 
@@ -118,7 +135,7 @@
       $(document).ready(function(){
           $('#menu-hamburguer-btn').click(
               function(){
-                  $('.menu').slideToggle();
+                  $('#menu-mobile').slideToggle();
               }
           )
       })
