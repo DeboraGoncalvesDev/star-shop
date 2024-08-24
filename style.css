@@ -226,7 +226,7 @@ header img{
 
 }
 
-@media screen and (min-width:700px) and (max-width: 1023px){
+/* @media screen and (min-width:641px) and (max-width: 1023px){
 
     .container{
         max-width: 95%;
@@ -241,5 +241,5 @@ header img{
         row-gap: 1%;
     }
   
-}
+} */
 
