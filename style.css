@@ -69,10 +69,10 @@ header img{
     row-gap: 3%;
 }
 
-.conteudo{
+ .conteudo{
     margin: 2em 1em;
    
-}
+} 
 .img-about img{
     width: 100%;
     height: 100%;
@@ -190,7 +190,7 @@ header img{
 
 
 
-@media screen and(max-width: 640px){
+@media screen and (max-width: 640px){
    .container{
     max-width: 95%;
     
@@ -214,7 +214,7 @@ header img{
 
   
  
-  .produtos .ul-produtos{
+    .produtos .ul-produtos{
     display: block;
 
     
@@ -226,20 +226,20 @@ header img{
 
 }
 
-/* @media screen and (min-width:641px) and (max-width: 1023px){
+  @media screen and (min-width:641px) and (max-width: 1023px){
 
     .container{
-        max-width: 95%;
+        max-width: 90%;
         
        }
 
        .produtos .ul-produtos{
     
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 48%);
         column-gap: 1%;
         row-gap: 1%;
     }
   
-} */
+}  
 
