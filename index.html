@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Star Shop</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/img-icon.webp" alt="">
+
+            <h1>Star Shop</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li> <a href="#">Sobre</a></li>
+                    <li> <a href="#">Produtos</a></li>
+                    <li><a href="#"><span class="material-symbols-outlined">
+                        shopping_cart_checkout
+                        </span></a></li>
+                </ul>
+            </nav>
+
+            <button type="button" id="menu-hamburguer-btn"><span class="material-symbols-outlined">
+                menu
+                </span></button>
+
+                
+           
+          
+        
+    </header>
+
+    
+
+    <div class="container conteudo">
+        <div class="container about">
+
+            <section class="img-about">
+                <img src="images/loja.webp" alt="">
+            
+            </section>
+            <section class="about-texto">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi assumenda omnis quos debitis, doloremque ipsam commodi, laborum amet velit tenetur molestiae dignissimos alias officiis facere veniam. Corporis necessitatibus ipsam vero.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi assumenda omnis quos debitis, doloremque ipsam commodi, laborum amet velit tenetur molestiae dignissimos alias officiis facere veniam. Corporis necessitatibus ipsam vero.</p>
+               
+            
+            </section>
+         
+        </div>
+
+        <div class="container produtos">
+            <section class="produtos">
+                <h2>Produtos </h2>
+            
+                <ul class="ul-produtos">
+
+                    
+                    <li>
+                        
+                            <img src="images/allstar-clasic.webp" alt="All-star preto e branco classico">
+                            <h3>All Star Chuck Taylor</h3>
+                            <span>All Star para quem gosta dos clássicos</span>
+                            <p>Preto e branco - cano alto</p>
+                            <span>R$100,00 <del>R$199,00</del></span>
+                       
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        
+                            <img src="images/allstar-canoalto-plataforma.jpg" alt="All-star preto e branco plataforma">
+                            <h3>All Star Plataforma</h3>
+                            <span>Nas alturas</span> 
+                            <p>Preto e branco - cano alto - Plataforma confortavel</p>
+                            <span>R$100,00 <del>R$199,00</del></span>
+                        
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        
+                            <img src="images/allstar-chuck70.jpg" alt="All star chuck 70">
+                            <h3> Chuck 70 </h3>
+                            <span>Diferenciado e puro estilo</span>
+                            <p>Preto e branco - Plataforma - Tratorado</p>
+                            <span>R$100,00 <del>R$199,00</del></span>
+                        
+                        <button type="button">Comprar</button>
+                    </li>
+                    <li>
+                        
+                            <img src="images/allstar-edicaolimitada.webp" alt="All-star bege edição limitada">
+                            <h3>Edição limitada</h3>
+                            <span>Estilo próprio</span>
+                            <p>Bege - Cano alto - Edição limitada</p>
+                            <span>R$100,00 <del>R$199,00</del></span>
+                        
+                        <button type="button">Comprar</button>
+                    </li>
+                </ul>
+            
+            </section>
+        </div>
+
+
+
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script >
+      $(document).ready(function(){
+          $('#menu-hamburguer-btn').click(
+              function(){
+                  $('.menu').slideToggle();
+              }
+          )
+      })
+    </script>
+
+   
+</body>
+</html>
